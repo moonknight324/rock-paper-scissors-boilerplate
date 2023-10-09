@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(assets/bg.png);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    height: 100vh;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    align-items: center;
+}
+
+#play-btn{
+    padding: 20px;
+    margin-right: 200px;
+}
+
+#score {
+    font-size: 90px;;
+}
+
+h1 {
+    text-align: center;
+    margin-top:3%; 
+    font-weight: 900;
+}
+
+.rock {
+    color: rgb(73, 26, 159);
+    font-size: 55px;
+}
+
+.score {
+    font-size:70px ;
+}
+
+.game-image {
+    width: 30%;
+    position: relative;
+    right: 380px;
+    top: 80px;
+}
+
+.play-button {
+    position: relative;
+    left: 190px;
+    display: flex;
+    display: row;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 37px;
+}
+
+.player {
+    border: 3px solid  #ffc434;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.img1{
+    justify-content: center;
+    margin-left: 450px;
+}
+
+.hands {
+    display: flex;
+    justify-content: space-around;
+}
+
+.you1{
+    height: 250px;
+    width: 400px;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+
+}
+
+.vs {
+    margin-left: 57px;
+    margin-right: 57px;
+    height: 575px;
+}
+
+#play-again {
+    background-color: rgb(181, 137, 27);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: auto;
+    border-radius: 5px;
+}
+    
+h2 {
+    text-align:center;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+#play {
+    height: 30px;
+}
+
+.Txt1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#game-over {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 5px;
+    
+}
+#gameOver{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.txt {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
